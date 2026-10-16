@@ -1,5 +1,5 @@
-﻿using System.Diagnostics.Contracts;
-using System.Runtime.Versioning;
+﻿using QuizGame.Services;
+using QuizGame.View;
 
 namespace QuizGame;
 
@@ -7,7 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        StartGame startGame = new StartGame();
-        startGame.ShowMenu();
+        GameService gameService = new GameService();
+        GameView gameView = new GameView();
+        GameController gameController = new GameController(gameService, gameView);
+
+        gameController.startGame();
     }
 }
