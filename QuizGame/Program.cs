@@ -7,5 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        StartGame startGame = new StartGame();
+        startGame.ShowMenu();
     }
 }
