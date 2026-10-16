@@ -1,0 +1,100 @@
+
+Vad heter Sveriges huvudstad?;Göteborg;Stockholm;Malmö;Stockholm
+Vad heter Norges huvudstad?;Oslo;Bergen;Trondheim;Oslo
+Vad heter Finlands huvudstad?;Åbo;Tammerfors;Helsingfors;Helsingfors
+Vad heter Danmarks huvudstad?;Aarhus;Köpenhamn;Odense;Köpenhamn
+Vad heter Greklands huvudstad?;Thessaloniki;Patras;Aten;Aten
+Vad heter Frankrikes huvudstad?;Paris;Lyon;Marseille;Paris
+Vad heter Italiens huvudstad?;Milano;Rom;Neapel;Rom
+Vad heter Spaniens huvudstad?;Barcelona;Sevilla;Madrid;Madrid
+Vad heter Tysklands huvudstad?;München;Hamburg;Berlin;Berlin
+Vad heter Japans huvudstad?;Osaka;Tokyo;Kyoto;Tokyo
+Vilken är Sveriges största sjö?;Vättern;Mälaren;Vänern;Vänern
+Vilken kontinent ligger Egypten huvudsakligen i?;Asien;Afrika;Europa;Afrika
+Vilket land har formen av en stövel?;Portugal;Grekland;Italien;Italien
+Vilket hav ligger mellan Sverige och Finland?;Östersjön;Nordsjön;Medelhavet;Östersjön
+Vilket är världens största hav?;Atlanten;Stilla havet;Indiska oceanen;Stilla havet
+Vilket land har flest invånare av dessa?;Kanada;Australien;Indien;Indien
+På vilken kontinent ligger Brasilien?;Afrika;Sydamerika;Asien;Sydamerika
+Vilken flod rinner genom London?;Seine;Donau;Themsen;Themsen
+Vilket land ligger staden Thessaloniki i?;Cypern;Grekland;Turkiet;Grekland
+Vilken är världens högsta bergstopp över havet?;K2;Mount Everest;Mont Blanc;Mount Everest
+Hur många dagar har ett skottår?;365;364;366;366
+Hur många minuter har en timme?;100;60;30;60
+Hur många sekunder har en minut?;60;100;90;60
+Vilken planet ligger närmast solen?;Venus;Mars;Merkurius;Merkurius
+Vilken planet kallas den röda planeten?;Mars;Jupiter;Saturnus;Mars
+Vilken planet är störst i solsystemet?;Jorden;Neptunus;Jupiter;Jupiter
+Vad kretsar jorden runt?;Månen;Solen;Mars;Solen
+Vilken gas behöver människor för cellandning?;Kväve;Helium;Syre;Syre
+Vilken gas tar växter upp vid fotosyntesen?;Koldioxid;Syre;Väte;Koldioxid
+Vad är H2O?;Syre;Salt;Vatten;Vatten
+Vid vilken temperatur kokar vatten vid normalt lufttryck?;50 °C;100 °C;150 °C;100 °C
+Vilket organ pumpar blod genom kroppen?;Levern;Lungorna;Hjärtat;Hjärtat
+Vilket organ använder vi främst för att andas?;Lungorna;Njurarna;Magsäcken;Lungorna
+Hur många ben har en vuxen människa vanligtvis?;201;206;250;206
+Vilket vitamin bildas i huden med hjälp av solljus?;Vitamin C;Vitamin B12;Vitamin D;Vitamin D
+Vilket är kroppens största organ?;Levern;Huden;Hjärtat;Huden
+Vad kallas processen där växter omvandlar ljus till kemisk energi?;Förbränning;Jäsning;Fotosyntes;Fotosyntes
+Vilket djur är ett däggdjur?;Delfin;Haj;Öring;Delfin
+Vilket är världens största nu levande djur?;Afrikansk elefant;Giraff;Blåval;Blåval
+Vilket ämne ger blodet dess röda färg?;Klorofyll;Hemoglobin;Melanin;Hemoglobin
+Vad är den kemiska symbolen för guld?;Ag;Fe;Au;Au
+Vad är den kemiska symbolen för syre?;S;O;N;O
+Vilket grundämne har symbolen Fe?;Guld;Silver;Järn;Järn
+Vad är pH-värdet för neutralt vatten vid cirka 25 °C?;0;7;14;7
+Vad är den kemiska symbolen för natrium?;N;Ne;Na;Na
+Vilken kraft håller oss kvar på jorden?;Magnetism;Gravitation;Friktion;Gravitation
+Vad mäter en termometer?;Lufttryck;Hastighet;Temperatur;Temperatur
+Vilket material är en bra elektrisk ledare?;Gummi;Koppar;Glas;Koppar
+Vem var Sveriges första kvinnliga statsminister?;Annie Lööf;Ebba Busch;Magdalena Andersson;Magdalena Andersson
+Vilket år började andra världskriget i Europa?;1914;1939;1945;1939
+Vilket år tog andra världskriget slut?;1939;1950;1945;1945
+Vilken civilisation byggde pyramiderna i Giza?;Forntida egyptier;Romare;Vikingar;Forntida egyptier
+Vem var den första människan på månen?;Yuri Gagarin;Neil Armstrong;Buzz Aldrin;Neil Armstrong
+Vilket år landade Apollo 11 på månen?;1959;1979;1969;1969
+Vilket skepp sjönk år 1912 efter att ha kolliderat med ett isberg?;Britannic;Titanic;Lusitania;Titanic
+Vilket land förknippas med renässansens början?;Sverige;Kanada;Italien;Italien
+Vilket folk förknippas med vikingatiden i Skandinavien?;Azteker;Nordbor;Maya;Nordbor
+Vilket år föll Berlinmuren?;1979;1999;1989;1989
+Vilken svensk uppfinnare instiftade Nobelpriset?;Anders Celsius;Carl von Linné;Alfred Nobel;Alfred Nobel
+Vilken stad var centrum för det antika romerska riket?;Aten;Rom;Alexandria;Rom
+Vem var den första kvinnan som fick Nobelpriset?;Ada Lovelace;Rosalind Franklin;Marie Curie;Marie Curie
+Vilken svensk kung förknippas med slaget vid Lützen 1632?;Karl XII;Gustav II Adolf;Gustav Vasa;Gustav II Adolf
+Vilken mur delade Berlin under kalla kriget?;Kinesiska muren;Berlinmuren;Hadrianus mur;Berlinmuren
+Vilket år undertecknades USA:s självständighetsförklaring?;1789;1812;1776;1776
+Vilket land förknippas med den antika demokratins utveckling i Aten?;Egypten;Grekland;Persien;Grekland
+Vad hette den första permanenta engelska kolonin i Nordamerika, grundad 1607?;Plymouth;Boston;Jamestown;Jamestown
+Vilken svensk botaniker skapade ett berömt system för att klassificera organismer?;Alfred Nobel;Jöns Jacob Berzelius;Carl von Linné;Carl von Linné
+Vilket språk används för att skapa webbsidors struktur?;CSS;HTML;SQL;HTML
+Vilket språk används främst för att styla webbsidor?;HTML;C#;CSS;CSS
+Vilket språk används i din quiz-app?;Python;C#;Ruby;C#
+Vad står CPU för?;Computer Personal Unit;Central Program Utility;Central Processing Unit;Central Processing Unit
+Vad används Git främst till?;Bildredigering;Versionshantering;Databashantering;Versionshantering
+Vad används en databas till?;Kyla processorn;Skapa skärmbilder;Lagra och organisera data;Lagra och organisera data
+Vad betyder API?;Automated Program Installation;Application Programming Interface;Applied Processing Internet;Application Programming Interface
+Vilket av följande är en boolesk datatyp i C#?;string;decimal;bool;bool
+Vilket värde kan en bool-variabel ha?;1 till 100;true eller false;Valfri text;true eller false
+Vilken symbol används ofta för att jämföra likhet i C#?;=;=>;==;==
+Vilken metod skriver text till konsolen i C#?;Console.ReadLine();Console.WriteLine();File.ReadAllText();Console.WriteLine();
+Vilken metod läser in en textrad från konsolen?;Console.WriteLine();Console.Clear();Console.ReadLine();Console.ReadLine();
+Vad används en for-loop till?;Skapa en klass;Upprepa kod;Deklarera ett namespace;Upprepa kod
+Vilket nyckelord används för att skapa en klass i C#?;method;object;class;class
+Vad används en metod till?;Lagra endast bilder;Samla kod för en uppgift;Starta datorn;Samla kod för en uppgift
+Vad är en variabel?;En typ av loop;En filändelse;En namngiven plats för ett värde;En namngiven plats för ett värde
+Vilken filändelse har vanliga C#-källfiler?;.html;.css;.cs;.cs
+Vad gör List<T> i C#?;Startar en webbläsare;Lagrar en samling element;Kompilerar koden;Lagrar en samling element
+Vilket nyckelord används för att skapa ett nytt objekt i C#?;class;return;new;new
+Vilket nyckelord används för att returnera ett värde från en metod?;break;using;return;return
+Vad används try-catch till?;Skapa loopar;Hantera undantag;Deklarera variabler;Hantera undantag
+Vad används en constructor till?;Radera en fil;Initiera ett objekt;Jämföra strängar;Initiera ett objekt
+Vilken operator betyder logiskt OCH i C#?;||;!;&&;&&
+Vilken operator betyder logiskt ELLER i C#?;&&;||;==;||
+Vilket nyckelord används för att definiera ett gränssnitt i C#?;class;enum;interface;interface
+Vad är en enum i C#?;En loop;En typ med namngivna värden;En metodparameter;En typ med namngivna värden
+Vilken metod kan dela en sträng vid en viss separator?;Join();Replace();Split();Split();
+Vilken klass används för att läsa alla rader från en textfil?;Console;Math;File;File
+Vad gör metoden int.TryParse()?;Skriver text till konsolen;Försöker konvertera text till ett heltal;Sorterar en lista;Försöker konvertera text till ett heltal
+Vilken samling fungerar enligt principen Last In, First Out?;Queue<T>;List<T>;Stack<T>;Stack<T>
+Vilken samling fungerar enligt principen First In, First Out?;Stack<T>;Queue<T>;HashSet<T>;Queue<T>
+Vad betyder DRY inom programmering?;Do Repeat Yourself;Data Runs Yearly;Don't Repeat Yourself;Don't Repeat Yourself
