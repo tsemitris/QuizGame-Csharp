@@ -82,7 +82,7 @@ public class GameController
         _usersService.ResetUser(userId);
 
         int correctAnswers = 0;
-        for (int i = 1; i <= 1; i++)
+        for (int i = 1; i <= 10; i++)
         {
             string[] question = _gameService.GetQuestion();
             _gameView.ShowQuestion(question, i);
