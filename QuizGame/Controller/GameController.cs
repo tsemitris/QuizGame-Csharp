@@ -20,43 +20,40 @@ public class GameController
     {
         _gameView.ShowIntroText();
 
-        bool isRunning = true;
-        while (isRunning)
+        int userChoice = _gameView.PrintMenuOptions();
+
+        switch (userChoice)
         {
-            int userChoice = _gameView.PrintMenuOptions();
+            case 1:
+                string userName = _gameView.ReadUserName();
 
-            switch (userChoice)
-            {
-                case 1:
-                    string userName = _gameView.ReadUserName();
+                while (!_gameService.ValidateUserName(userName))
+                {
+                    _gameView.ErrorMessage("Username can't be empty, please try again!");
+                    userName = _gameView.ReadUserName();
+                }
 
-                    while (!_gameService.ValidateUserName(userName))
-                    {
-                        _gameView.ErrorMessage("Username can't be empty, please try again!");
-                        userName = _gameView.ReadUserName();
-                    }
+                _usersService.AddUser(userName);
 
-                    _usersService.AddUser(userName);
-                    break;
-                case 2:
-                    // TODO Game rules
-                    break;
-                case 3:
-                    int index = 1;
-                    foreach (User user in _usersService.OrderByDescending())
-                    {
-                        _gameView.ShowLeaderboard(index, user);
-                        index++;
-                    }
+                // _gameView.ShowQuestion(_gameService.GetQuestion());
+                break;
+            case 2:
+                // TODO Game rules
+                break;
+            case 3:
+                int index = 1;
+                foreach (User user in _usersService.OrderByDescending())
+                {
+                    _gameView.ShowLeaderboard(index, user);
+                    index++;
+                }
 
-                    break;
-                case 0:
-                    isRunning = false;
-                    break;
-                default:
-                    _gameView.InvalidMenuChoice();
-                    break;
-            }
+                break;
+            case 0:
+                break;
+            default:
+                _gameView.InvalidMenuChoice();
+                break;
         }
     }
 }
