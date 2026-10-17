@@ -26,7 +26,7 @@ public class UsersService
     public void ResetUser(Guid userId)
     {
         User userData = GetUserById(userId);
-        userData.Lifes = 3;
+        userData.Lives = 3;
         userData.Points = 0;
     }
 
@@ -35,14 +35,14 @@ public class UsersService
         return users.OrderByDescending(u => u.Points).ToList();
     }
 
-    public int GetUserLifes(Guid userId)
+    public int GetUserLives(Guid userId)
     {
-        return GetUserById(userId).Lifes;
+        return GetUserById(userId).Lives;
     }
 
     public void UpdateUserLife(Guid userId)
     {
-        GetUserById(userId).Lifes -= 1;
+        GetUserById(userId).Lives -= 1;
     }
 
     public double GetUserPoints(Guid userId)

@@ -128,9 +128,9 @@ public class GameView
     {
         Console.WriteLine($"Points: {points}pts");
     }
-    public void ShowRemainingPointsAndLifes(User user)
+    public void ShowRemainingPointsAndLives(User user)
     {
-        Console.WriteLine($"Points: {user.Points}pts | Remaining lifes: {user.Lifes}/3");
+        Console.WriteLine($"Points: {user.Points}pts | Remaining Lives: {user.Lives}/3");
     }
 
     public void ShowGameOver()

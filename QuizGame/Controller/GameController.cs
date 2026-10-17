@@ -90,14 +90,14 @@ public class GameController
 
             bool validatedUserAnswer = _gameService.ValidateUserAnswer(question, userInput);
 
-            int userLifes = _usersService.GetUserLifes(userId);
-            if (userLifes > 1)
+            int userLives = _usersService.GetUserLives(userId);
+            if (userLives > 1)
             {
                 if (validatedUserAnswer)
                 {
                     _gameView.CorrectAnswerMessage();
 
-                    double correctAnswerPoints = _gameService.CalculatePoints(userLifes);
+                    double correctAnswerPoints = _gameService.CalculatePoints(userLives);
                     _usersService.UpdateUserPoints(userId, correctAnswerPoints);
 
                     _gameView.ShowUserPoints(_usersService.GetUserPoints(userId));
@@ -107,7 +107,7 @@ public class GameController
                 {
                     _gameView.WrongAnswerMessage(question);
                     _usersService.UpdateUserLife(userId);
-                    _gameView.ShowRemainingPointsAndLifes(_usersService.GetUserById(userId));
+                    _gameView.ShowRemainingPointsAndLives(_usersService.GetUserById(userId));
                 }
             }
             else
@@ -119,7 +119,7 @@ public class GameController
             }
         }
 
-        int bonusPoints = _gameService.CalculatePerfectGameBonus(correctAnswers, _usersService.GetUserLifes(userId));
+        int bonusPoints = _gameService.CalculatePerfectGameBonus(correctAnswers, _usersService.GetUserLives(userId));
         _usersService.UpdateUserPoints(userId, bonusPoints);
         _gameView.ShowVictoryScreen(_usersService.GetUserById(userId), bonusPoints);
         ShowEndMenu(userName);

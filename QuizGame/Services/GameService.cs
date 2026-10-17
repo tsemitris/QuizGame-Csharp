@@ -49,10 +49,10 @@ public class GameService
         }
     }
 
-    public double CalculatePoints(int userLifes)
+    public double CalculatePoints(int userLives)
     {
         int correctAnswerPoint = 100;
-        switch (userLifes)
+        switch (userLives)
         {
             case 1:
                 return 1 * correctAnswerPoint;
@@ -65,7 +65,7 @@ public class GameService
         }
     }
 
-    public int CalculatePerfectGameBonus(int correctAnswers, int userLifes)
+    public int CalculatePerfectGameBonus(int correctAnswers, int userLives)
     {
         int bonusPoints = 0;
         if (correctAnswers == 10)
@@ -73,7 +73,7 @@ public class GameService
             bonusPoints += 200;
         }
 
-        if (userLifes == 3)
+        if (userLives == 3)
         {
             bonusPoints += 300;
         }

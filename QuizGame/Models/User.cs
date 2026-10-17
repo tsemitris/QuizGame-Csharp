@@ -6,7 +6,7 @@ public class User
 {
     public Guid Id { get; set; }
     public string Name { get; set; }
-    public int Lifes { get; set; } = 3;
+    public int Lives { get; set; } = 3;
     public double Points { get; set; } = 0;
     public DateOnly LastTimePlayed { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 
