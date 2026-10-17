@@ -33,43 +33,98 @@ public class GameController
                     userName = _gameView.ReadUserName();
                 }
 
-                _usersService.AddUser(userName);
-
-                for (int i = 1; i <= 10; i++)
-                {
-                    string[] question = _gameService.GetQuestion();
-                    _gameView.ShowQuestion(question, i);
-                    int userInput = _gameView.ReadUserAnswer(question, i);
-
-                    bool validatedUserAnswer = _gameService.ValidateUserAnswer(question, userInput);
-
-                    if (validatedUserAnswer)
-                    {
-                        _gameView.CorrectAnswerMessage();
-                    }
-                    else
-                    {
-                        _gameView.WrongAnswerMessage(question);
-                    }
-                }
+                PlayGame(userName);
                 break;
             case 2:
                 // TODO Game rules
                 break;
             case 3:
-                int index = 1;
-                foreach (User user in _usersService.OrderByDescending())
-                {
-                    _gameView.ShowLeaderboard(index, user);
-                    index++;
-                }
-
+                ShowLeaderboard();
                 break;
             case 0:
                 break;
             default:
                 _gameView.InvalidChoice();
                 break;
+        }
+    }
+
+    void ShowEndMenu(string userName)
+    {
+        int userChoice = _gameView.ShowEndMenu();
+
+        switch (userChoice)
+        {
+            case 1:
+                PlayGame(userName);
+                break;
+            case 2:
+                ShowLeaderboard();
+                break;
+            case 0:
+                break;
+            default:
+                _gameView.InvalidChoice();
+                break;
+        }
+    }
+
+    void PlayGame(string userName)
+    {
+        _usersService.AddUser(userName);
+        Guid userId = _usersService.GetUserId(userName);
+
+        int correctAnswers = 0;
+        for (int i = 1; i <= 1; i++)
+        {
+            string[] question = _gameService.GetQuestion();
+            _gameView.ShowQuestion(question, i);
+            int userInput = _gameView.ReadUserAnswer(question, i);
+
+            bool validatedUserAnswer = _gameService.ValidateUserAnswer(question, userInput);
+
+            int userLifes = _usersService.GetUserLifes(userId);
+            if (userLifes > 1)
+            {
+                if (validatedUserAnswer)
+                {
+                    _gameView.CorrectAnswerMessage();
+
+                    double correctAnswerPoints = _gameService.CalculatePoints(userLifes);
+                    _usersService.UpdateUserPoints(userId, correctAnswerPoints);
+
+                    _gameView.ShowUserPoints(_usersService.GetUserPoints(userId));
+                    correctAnswers++;
+                }
+                else
+                {
+                    _gameView.WrongAnswerMessage(question);
+                    _usersService.UpdateUserLife(userId);
+                    _gameView.ShowRemainingPointsAndLifes(_usersService.GetUserById(userId));
+                }
+            }
+            else
+            {
+                _gameView.WrongAnswerMessage(question);
+                _gameView.ShowGameOver();
+                ShowEndMenu(userName);
+                break;
+            }
+        }
+
+        int bonusPoints = _gameService.CalculatePerfectGameBonus(correctAnswers, _usersService.GetUserLifes(userId));
+        _usersService.UpdateUserPoints(userId, bonusPoints);
+        _gameView.ShowVictoryScreen(_usersService.GetUserById(userId), bonusPoints);
+        ShowEndMenu(userName);
+    }
+
+    void ShowLeaderboard()
+    {
+        int index = 1;
+        foreach (User user in _usersService.OrderByDescending())
+        {
+            _gameView.PrintUserInfo(index, user);
+            index++;
         }
     }
 }

@@ -48,4 +48,36 @@ public class GameService
             return false;
         }
     }
+
+    public double CalculatePoints(int userLifes)
+    {
+        int correctAnswerPoint = 100;
+        switch (userLifes)
+        {
+            case 1:
+                return 1 * correctAnswerPoint;
+            case 2:
+                return 1.5 * correctAnswerPoint;
+            case 3:
+                return 2 * correctAnswerPoint;
+            default:
+                return 0;
+        }
+    }
+
+    public int CalculatePerfectGameBonus(int correctAnswers, int userLifes)
+    {
+        int bonusPoints = 0;
+        if (correctAnswers == 10)
+        {
+            bonusPoints += 200;
+        }
+
+        if (userLifes == 3)
+        {
+            bonusPoints += 300;
+        }
+
+        return bonusPoints;
+    }
 }

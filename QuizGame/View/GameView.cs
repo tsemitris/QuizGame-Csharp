@@ -1,3 +1,5 @@
+using System.Diagnostics.Contracts;
+
 namespace QuizGame.View;
 
 public class GameView
@@ -50,9 +52,9 @@ public class GameView
         Console.ResetColor();
     }
 
-    public void ShowLeaderboard(int index, User user)
+    public void PrintUserInfo(int index, User user)
     {
-        Console.WriteLine($"[{index}] Name: {user.Name}, Score: {user.Score}, Last time played: {user.LastTimePlayed}");
+        Console.WriteLine($"[{index}] Name: {user.Name}, Score: {user.Points}, Last time played: {user.LastTimePlayed}");
     }
 
     public void ShowQuestion(string[] question, int questionIndex)
@@ -82,7 +84,7 @@ public class GameView
     public void CorrectAnswerMessage()
     {
         Console.ForegroundColor = ConsoleColor.DarkGreen;
-        Console.WriteLine("Correct!");
+        Console.WriteLine("\nCorrect!");
         Console.ResetColor();
     }
 
@@ -91,5 +93,48 @@ public class GameView
         Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.WriteLine($"\nWrong answer! \nThe correct answer was: {question[4]}");
         Console.ResetColor();
+    }
+
+    public void ShowUserPoints(double points)
+    {
+        Console.WriteLine($"Points: {points}pts");
+    }
+    public void ShowRemainingPointsAndLifes(User user)
+    {
+        Console.WriteLine($"Points: {user.Points}pts | Remaining lifes: {user.Lifes}/3");
+    }
+
+    public void ShowGameOver()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("\nGame over!");
+        Console.ResetColor();
+        Console.WriteLine("Better luck next time :D");
+    }
+
+    public void ShowVictoryScreen(User user, int bonusPoints)
+    {
+        double points = user.Points - bonusPoints;
+        double totalPoints = points + bonusPoints;
+
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.WriteLine("\nCongratulations!! You made it.");
+        Console.ResetColor();
+
+        Console.WriteLine($"Points: {points}pts + {bonusPoints} bonus points | Total points: {totalPoints}");
+    }
+
+    public int ShowEndMenu()
+    {
+        Console.WriteLine("\nMenu: \n[1] Play Again \n[2] Leaderboard \n[0] Exit");
+
+        int userChoice = 0;
+        if (!int.TryParse(Console.ReadLine(), out userChoice))
+        {
+            InvalidChoice();
+            return ShowEndMenu();
+        }
+
+        return userChoice;
     }
 }
