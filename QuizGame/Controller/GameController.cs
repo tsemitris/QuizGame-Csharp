@@ -36,6 +36,23 @@ public class GameController
                 _usersService.AddUser(userName);
 
                 // _gameView.ShowQuestion(_gameService.GetQuestion());
+                for (int i = 1; i <= 10; i++)
+                {
+                    string[] question = _gameService.GetQuestion();
+                    _gameView.ShowQuestion(question, i);
+                    int userInput = _gameView.ReadUserAnswer(question, i);
+
+                    bool validatedUserAnswer = _gameService.ValidateUserAnswer(question, userInput);
+
+                    if (validatedUserAnswer)
+                    {
+                        _gameView.CorrectAnswerMessage();
+                    }
+                    else
+                    {
+                        _gameView.WrongAnswerMessage(question);
+                    }
+                }
                 break;
             case 2:
                 // TODO Game rules
