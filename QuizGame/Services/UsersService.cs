@@ -1,4 +1,5 @@
 
+using System.Runtime.CompilerServices;
 using QuizGame;
 
 public class UsersService
@@ -20,6 +21,13 @@ public class UsersService
     {
         User userData = users.Find(u => u.Id == userId)!;
         return userData;
+    }
+
+    public void ResetUser(Guid userId)
+    {
+        User userData = GetUserById(userId);
+        userData.Lifes = 3;
+        userData.Points = 0;
     }
 
     public List<User> OrderByDescending()
