@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using QuizGame.Services;
 using QuizGame.View;
 
@@ -36,9 +37,12 @@ public class GameController
                 PlayGame(userName);
                 break;
             case 2:
-                // TODO Game rules
+                LoadGame();
                 break;
             case 3:
+                // TODO Game rules
+                break;
+            case 4:
                 ShowLeaderboard();
                 break;
             case 0:
@@ -119,6 +123,29 @@ public class GameController
         _usersService.UpdateUserPoints(userId, bonusPoints);
         _gameView.ShowVictoryScreen(_usersService.GetUserById(userId), bonusPoints);
         ShowEndMenu(userName);
+    }
+
+    void LoadGame()
+    {
+        int index = 1;
+        foreach (User user in _usersService.OrderByDescending())
+        {
+            _gameView.PrintUserInfo(index, user);
+            index++;
+        }
+
+        List<User> users = _usersService.OrderByDescending();
+        if (users.Count != 0)
+        {
+            int userChoice = _gameView.ReadUserLoadGameInput();
+            string userName = users[userChoice].Name;
+            PlayGame(userName);
+        }
+        else
+        {
+            _gameView.PrintUserLoadGameEmpty();
+            StartGame();
+        }
     }
 
     void ShowLeaderboard()
