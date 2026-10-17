@@ -69,7 +69,7 @@ public class GameController
             case 0:
                 break;
             default:
-                _gameView.InvalidMenuChoice();
+                _gameView.InvalidChoice();
                 break;
         }
     }
