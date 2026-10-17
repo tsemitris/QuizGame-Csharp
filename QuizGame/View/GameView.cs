@@ -67,4 +67,16 @@ public class GameView
         Console.WriteLine("Enter your answer: ");
     }
 
+    public int ReadUserAnswer(string[] question, int questionIndex)
+    {
+        int userChoice = 0;
+        while (!int.TryParse(Console.ReadLine(), out userChoice) || !(userChoice > 0 && userChoice < 4))
+        {
+            InvalidChoice();
+            ShowQuestion(question, questionIndex);
+        }
+
+        return userChoice;
+    }
+
 }
