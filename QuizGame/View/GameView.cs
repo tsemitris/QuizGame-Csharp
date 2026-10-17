@@ -6,6 +6,11 @@ public class GameView
     {
         Console.WriteLine("Welcome to Quiz-Time!");
         Console.WriteLine("Test your knowledge and see how many questions you can answer correctly!\n");
+        ShowReadyMessage();
+    }
+
+    void ShowReadyMessage()
+    {
         Console.WriteLine("Ready to challenge yourself?");
     }
 
@@ -16,8 +21,8 @@ public class GameView
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))
         {
-            InvalidMenuChoice();
             InvalidChoice();
+            ShowReadyMessage();
             return PrintMenuOptions();
         }
 
