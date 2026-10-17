@@ -140,7 +140,7 @@ public class GameController
         }
         else
         {
-            _gameView.PrintUserLoadGameEmpty();
+            _gameView.PrintUserLoadGameEmptyMessage();
             StartGame();
         }
     }
