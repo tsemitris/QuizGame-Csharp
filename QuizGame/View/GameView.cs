@@ -39,7 +39,7 @@ public class GameView
 
     public int PrintMenuOptions()
     {
-        Console.WriteLine("[1] Start game \n[2] Game rules \n[3] Leaderboard \n[0] Exit");
+        Console.WriteLine("[1] Start game \n[2] Load game \n[3] Game rules \n[4] Leaderboard \n[0] Exit");
 
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))
@@ -151,7 +151,7 @@ public class GameView
 
     public int ShowEndMenu()
     {
-        Console.WriteLine("\nMenu: \n[1] Play Again \n[2] Leaderboard \n[9] Main menu \n[0] Exit");
+        Console.WriteLine("\nMenu: \n[1] Play Again \n[9] Main menu \n[0] Exit");
 
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))

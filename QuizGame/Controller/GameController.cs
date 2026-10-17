@@ -62,9 +62,6 @@ public class GameController
             case 1:
                 PlayGame(userName);
                 break;
-            case 2:
-                ShowLeaderboard();
-                break;
             case 9:
                 StartGame();
                 break;
