@@ -54,4 +54,17 @@ public class GameView
     {
         Console.WriteLine($"[{index}] Name: {user.Name}, Score: {user.Score}, Last time played: {user.LastTimePlayed}");
     }
+
+    public void ShowQuestion(string[] question, int questionIndex)
+    {
+        Console.WriteLine($"\nQuestion {questionIndex}: {question[0]}");
+
+        for (int i = 1; i < 4; i++)
+        {
+            Console.WriteLine($"[{i}] {question[i]}");
+        }
+
+        Console.WriteLine("Enter your answer: ");
+    }
+
 }
