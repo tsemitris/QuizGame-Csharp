@@ -179,4 +179,42 @@ public class GameView
 
         return userChoice;
     }
+
+    public void ShowGameRules()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("\nQuiz-time - Game rules");
+        Console.ResetColor();
+
+        Console.WriteLine("Test your knowledge, answer questions and earn points!");
+
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
+        Console.WriteLine("\nHow to play:");
+        Console.ResetColor();
+
+        Console.WriteLine("1. Enter your username to start the game.");
+        Console.WriteLine("2. Answer 10 multiple-choice questions..");
+        Console.WriteLine("3. Each question has 3 possible answers. Choose the correct answer by entering 1, 2, or 3.");
+        Console.WriteLine("4. You start the game with 3 lives.");
+        Console.WriteLine("5. Every incorrect answer costs you 1 life.");
+        Console.WriteLine("5. Try to answer as many questions correctly as possible before losing all your lives!");
+
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
+        Console.WriteLine("\nScoring System:");
+        Console.ResetColor();
+
+        Console.WriteLine("- Correct answers earn you points.");
+        Console.WriteLine("- The more lives you have left, the higher your potential score.");
+        Console.WriteLine("- Complete all 10 questions with all 3 lives remaining to earn a special bonus!");
+
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
+        Console.WriteLine("\nHigh Scores:");
+        Console.ResetColor();
+
+        Console.WriteLine("Your score will be recorded and displayed on the High Scores leaderboard. Compete for the highest score and see how you rank against other players!");
+
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.WriteLine("\nGood luck, and have fun!");
+        Console.ResetColor();
+    }
 }
