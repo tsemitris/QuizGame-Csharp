@@ -36,4 +36,16 @@ public class GameService
 
         return answers;
     }
+
+    public bool ValidateUserAnswer(string[] answers, int userAnswer)
+    {
+        if (answers[userAnswer] == answers[4])
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
