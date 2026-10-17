@@ -162,4 +162,17 @@ public class GameView
 
         return userChoice;
     }
+
+    public int ShowGoToMainMenu()
+    {
+        Console.WriteLine("\nMain menu: \n[1] Go \n[0] Exit game");
+        int userChoice = 0;
+        if (!int.TryParse(Console.ReadLine(), out userChoice))
+        {
+            InvalidChoice();
+            return ShowGoToMainMenu();
+        }
+
+        return userChoice;
+    }
 }
