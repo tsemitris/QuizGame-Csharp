@@ -52,6 +52,10 @@ public class GameView
         Console.ResetColor();
     }
 
+    public void PrintLeaderboardHeader()
+    {
+        Console.WriteLine("\nLeaderboard:");
+    }
     public void PrintUserInfo(int index, User user)
     {
         Console.WriteLine($"[{index}] Name: {user.Name}, Score: {user.Points}, Last time played: {user.LastTimePlayed}");
