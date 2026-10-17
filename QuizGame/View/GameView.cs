@@ -86,4 +86,10 @@ public class GameView
         Console.ResetColor();
     }
 
+    public void WrongAnswerMessage(string[] question)
+    {
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine($"\nWrong answer! \nThe correct answer was: {question[4]}");
+        Console.ResetColor();
+    }
 }
