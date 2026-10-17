@@ -16,6 +16,27 @@ public class GameView
         Console.WriteLine("Ready to challenge yourself?");
     }
 
+    public int ReadUserLoadGameInput()
+    {
+        Console.WriteLine("Which save do you want to load?");
+
+        int userChoice = 0;
+        if (!int.TryParse(Console.ReadLine(), out userChoice))
+        {
+            InvalidChoice();
+            return ReadUserLoadGameInput();
+        }
+
+        return userChoice;
+    }
+
+    public void PrintUserLoadGameEmptyMessage()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("\nNo user found!");
+        Console.ResetColor();
+    }
+
     public int PrintMenuOptions()
     {
         Console.WriteLine("[1] Start game \n[2] Game rules \n[3] Leaderboard \n[0] Exit");
