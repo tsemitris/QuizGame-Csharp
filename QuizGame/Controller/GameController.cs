@@ -42,7 +42,8 @@ public class GameController
                 LoadGame();
                 break;
             case 3:
-                // TODO Game rules
+                _gameView.ShowGameRules();
+                _gameView.ShowGoToMainMenu();
                 break;
             case 4:
                 ShowLeaderboard();
