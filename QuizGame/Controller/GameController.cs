@@ -35,7 +35,6 @@ public class GameController
 
                 _usersService.AddUser(userName);
 
-                // _gameView.ShowQuestion(_gameService.GetQuestion());
                 for (int i = 1; i <= 10; i++)
                 {
                     string[] question = _gameService.GetQuestion();
