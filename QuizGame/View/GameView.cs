@@ -16,9 +16,10 @@ public class GameView
         Console.WriteLine("Ready to challenge yourself?");
     }
 
-    public int ReadUserLoadGameInput()
+    public void ShowLoadGameHeader()
     {
-        Console.WriteLine("Which save do you want to load?");
+        Console.WriteLine("\nLoad game:");
+    }
 
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))
