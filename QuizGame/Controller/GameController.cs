@@ -61,6 +61,9 @@ public class GameController
             case 2:
                 ShowLeaderboard();
                 break;
+            case 9:
+                StartGame();
+                break;
             case 0:
                 break;
             default:
