@@ -16,7 +16,7 @@ public class GameController
         _usersService = usersService;
     }
 
-    public void startGame()
+    public void StartGame()
     {
         _gameView.ShowIntroText();
 

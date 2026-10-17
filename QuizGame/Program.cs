@@ -14,6 +14,6 @@ class Program
 
         GameController gameController = new GameController(gameService, gameView, usersService);
 
-        gameController.startGame();
+        gameController.StartGame();
     }
 }
