@@ -59,6 +59,7 @@ public class GameController
                 PlayGame(userName);
                 break;
             case 2:
+            case 3:
                 ShowLeaderboard();
                 break;
             case 0:
