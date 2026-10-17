@@ -34,6 +34,8 @@ public class GameController
                     userName = _gameView.ReadUserName();
                 }
 
+                _usersService.AddUser(userName);
+
                 PlayGame(userName);
                 break;
             case 2:
@@ -75,8 +77,8 @@ public class GameController
 
     void PlayGame(string userName)
     {
-        _usersService.AddUser(userName);
         Guid userId = _usersService.GetUserId(userName);
+        _usersService.ResetUser(userId);
 
         int correctAnswers = 0;
         for (int i = 1; i <= 1; i++)
@@ -126,17 +128,20 @@ public class GameController
     {
         List<User> users = _usersService.OrderByDescending();
 
-        int index = 1;
-        foreach (User user in users)
-        {
-            _gameView.PrintUserInfo(index, user);
-            index++;
-        }
-
         if (users.Count != 0)
         {
+            _gameView.ShowLoadGameHeader();
+
+            int index = 1;
+            foreach (User user in users)
+            {
+                _gameView.PrintUserInfo(index, user);
+                index++;
+            }
+
             int userChoice = _gameView.ReadUserLoadGameInput();
-            string userName = users[userChoice].Name;
+
+            string userName = users[userChoice - 1].Name;
             PlayGame(userName);
         }
         else
@@ -163,6 +168,19 @@ public class GameController
             {
                 _gameView.PrintUserInfo(index, user);
                 index++;
+            }
+
+            int userChoice = _gameView.ShowGoToMainMenu();
+            switch (userChoice)
+            {
+                case 1:
+                    StartGame();
+                    break;
+                case 0:
+                    break;
+                default:
+                    _gameView.InvalidChoice();
+                    break;
             }
 
         }
