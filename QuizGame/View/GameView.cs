@@ -130,7 +130,6 @@ public class GameView
 
     public int ShowEndMenu()
     {
-        Console.WriteLine("\nMenu: \n[1] Play Again \n[2] New Game [ new player ] \n[3] Leaderboard \n[0] Exit");
 
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))
