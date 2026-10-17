@@ -123,6 +123,8 @@ public class GameController
 
     void ShowLeaderboard()
     {
+        _gameView.PrintLeaderboardHeader();
+
         int index = 1;
         foreach (User user in _usersService.OrderByDescending())
         {
