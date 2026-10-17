@@ -19,19 +19,21 @@ public class GameService
         }
     }
 
-    public void GetQuestion()
+    public string[] GetQuestion()
     {
         Random random = new Random();
-        // int randomQuestionIndex = random.Next(1, questions.Length + 1);
-        int randomQuestionIndex = random.Next(1, questions.Length);
+        int randomQuestionIndex = random.Next(1, questions.Length + 1);
         bool randomNumberExistance = showedQuestions.Contains(randomQuestionIndex);
 
         while (randomNumberExistance)
         {
-            randomNumberExistance = showedQuestions.Contains(random.Next(1, questions.Length + 1));
+            randomQuestionIndex = random.Next(1, questions.Length + 1);
+            randomNumberExistance = showedQuestions.Contains(randomQuestionIndex);
         }
 
         showedQuestions.Add(randomQuestionIndex);
-        Console.WriteLine(questions[randomQuestionIndex] + "\n");
+        string[] answers = questions[randomQuestionIndex].Split(';');
+
+        return answers;
     }
 }
