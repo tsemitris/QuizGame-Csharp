@@ -11,7 +11,7 @@ public class GameView
 
     public int PrintMenuOptions()
     {
-        Console.WriteLine("[1] Start game \n[2] Game rules \n[3] High Scores \n[0] Exit");
+        Console.WriteLine("[1] Start game \n[2] Game rules \n[3] Leaderboard \n[0] Exit");
 
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))
@@ -44,5 +44,10 @@ public class GameView
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine(message);
         Console.ResetColor();
+    }
+
+    public void ShowLeaderboard(int index, User user)
+    {
+        Console.WriteLine($"[{index}] Name: {user.Name}, Score: {user.Score}, Last time played: {user.LastTimePlayed}");
     }
 }
