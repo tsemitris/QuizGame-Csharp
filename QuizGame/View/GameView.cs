@@ -29,8 +29,6 @@ public class GameView
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\nPlease write a valid number!");
         Console.ResetColor();
-
-        Console.WriteLine("\nReady to challenge yourself?");
     }
 
     public string ReadUserName()
