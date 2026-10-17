@@ -17,13 +17,14 @@ public class GameView
         if (!int.TryParse(Console.ReadLine(), out userChoice))
         {
             InvalidMenuChoice();
+            InvalidChoice();
             return PrintMenuOptions();
         }
 
         return userChoice;
     }
 
-    public void InvalidMenuChoice()
+    public void InvalidChoice()
     {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\nPlease write a valid number!");
