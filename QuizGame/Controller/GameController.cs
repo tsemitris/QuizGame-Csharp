@@ -124,14 +124,15 @@ public class GameController
 
     void LoadGame()
     {
+        List<User> users = _usersService.OrderByDescending();
+
         int index = 1;
-        foreach (User user in _usersService.OrderByDescending())
+        foreach (User user in users)
         {
             _gameView.PrintUserInfo(index, user);
             index++;
         }
 
-        List<User> users = _usersService.OrderByDescending();
         if (users.Count != 0)
         {
             int userChoice = _gameView.ReadUserLoadGameInput();
@@ -140,7 +141,7 @@ public class GameController
         }
         else
         {
-            _gameView.PrintUserLoadGameEmptyMessage();
+            _gameView.PrintNoUserFound();
             StartGame();
         }
     }
