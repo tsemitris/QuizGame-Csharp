@@ -1,100 +1,100 @@
-
-Vad heter Sveriges huvudstad?;Göteborg;Stockholm;Malmö;Stockholm
-Vad heter Norges huvudstad?;Oslo;Bergen;Trondheim;Oslo
-Vad heter Finlands huvudstad?;Åbo;Tammerfors;Helsingfors;Helsingfors
-Vad heter Danmarks huvudstad?;Aarhus;Köpenhamn;Odense;Köpenhamn
-Vad heter Greklands huvudstad?;Thessaloniki;Patras;Aten;Aten
-Vad heter Frankrikes huvudstad?;Paris;Lyon;Marseille;Paris
-Vad heter Italiens huvudstad?;Milano;Rom;Neapel;Rom
-Vad heter Spaniens huvudstad?;Barcelona;Sevilla;Madrid;Madrid
-Vad heter Tysklands huvudstad?;München;Hamburg;Berlin;Berlin
-Vad heter Japans huvudstad?;Osaka;Tokyo;Kyoto;Tokyo
-Vilken är Sveriges största sjö?;Vättern;Mälaren;Vänern;Vänern
-Vilken kontinent ligger Egypten huvudsakligen i?;Asien;Afrika;Europa;Afrika
-Vilket land har formen av en stövel?;Portugal;Grekland;Italien;Italien
-Vilket hav ligger mellan Sverige och Finland?;Östersjön;Nordsjön;Medelhavet;Östersjön
-Vilket är världens största hav?;Atlanten;Stilla havet;Indiska oceanen;Stilla havet
-Vilket land har flest invånare av dessa?;Kanada;Australien;Indien;Indien
-På vilken kontinent ligger Brasilien?;Afrika;Sydamerika;Asien;Sydamerika
-Vilken flod rinner genom London?;Seine;Donau;Themsen;Themsen
-Vilket land ligger staden Thessaloniki i?;Cypern;Grekland;Turkiet;Grekland
-Vilken är världens högsta bergstopp över havet?;K2;Mount Everest;Mont Blanc;Mount Everest
-Hur många dagar har ett skottår?;365;364;366;366
-Hur många minuter har en timme?;100;60;30;60
-Hur många sekunder har en minut?;60;100;90;60
-Vilken planet ligger närmast solen?;Venus;Mars;Merkurius;Merkurius
-Vilken planet kallas den röda planeten?;Mars;Jupiter;Saturnus;Mars
-Vilken planet är störst i solsystemet?;Jorden;Neptunus;Jupiter;Jupiter
-Vad kretsar jorden runt?;Månen;Solen;Mars;Solen
-Vilken gas behöver människor för cellandning?;Kväve;Helium;Syre;Syre
-Vilken gas tar växter upp vid fotosyntesen?;Koldioxid;Syre;Väte;Koldioxid
-Vad är H2O?;Syre;Salt;Vatten;Vatten
-Vid vilken temperatur kokar vatten vid normalt lufttryck?;50 °C;100 °C;150 °C;100 °C
-Vilket organ pumpar blod genom kroppen?;Levern;Lungorna;Hjärtat;Hjärtat
-Vilket organ använder vi främst för att andas?;Lungorna;Njurarna;Magsäcken;Lungorna
-Hur många ben har en vuxen människa vanligtvis?;201;206;250;206
-Vilket vitamin bildas i huden med hjälp av solljus?;Vitamin C;Vitamin B12;Vitamin D;Vitamin D
-Vilket är kroppens största organ?;Levern;Huden;Hjärtat;Huden
-Vad kallas processen där växter omvandlar ljus till kemisk energi?;Förbränning;Jäsning;Fotosyntes;Fotosyntes
-Vilket djur är ett däggdjur?;Delfin;Haj;Öring;Delfin
-Vilket är världens största nu levande djur?;Afrikansk elefant;Giraff;Blåval;Blåval
-Vilket ämne ger blodet dess röda färg?;Klorofyll;Hemoglobin;Melanin;Hemoglobin
-Vad är den kemiska symbolen för guld?;Ag;Fe;Au;Au
-Vad är den kemiska symbolen för syre?;S;O;N;O
-Vilket grundämne har symbolen Fe?;Guld;Silver;Järn;Järn
-Vad är pH-värdet för neutralt vatten vid cirka 25 °C?;0;7;14;7
-Vad är den kemiska symbolen för natrium?;N;Ne;Na;Na
-Vilken kraft håller oss kvar på jorden?;Magnetism;Gravitation;Friktion;Gravitation
-Vad mäter en termometer?;Lufttryck;Hastighet;Temperatur;Temperatur
-Vilket material är en bra elektrisk ledare?;Gummi;Koppar;Glas;Koppar
-Vem var Sveriges första kvinnliga statsminister?;Annie Lööf;Ebba Busch;Magdalena Andersson;Magdalena Andersson
-Vilket år började andra världskriget i Europa?;1914;1939;1945;1939
-Vilket år tog andra världskriget slut?;1939;1950;1945;1945
-Vilken civilisation byggde pyramiderna i Giza?;Forntida egyptier;Romare;Vikingar;Forntida egyptier
-Vem var den första människan på månen?;Yuri Gagarin;Neil Armstrong;Buzz Aldrin;Neil Armstrong
-Vilket år landade Apollo 11 på månen?;1959;1979;1969;1969
-Vilket skepp sjönk år 1912 efter att ha kolliderat med ett isberg?;Britannic;Titanic;Lusitania;Titanic
-Vilket land förknippas med renässansens början?;Sverige;Kanada;Italien;Italien
-Vilket folk förknippas med vikingatiden i Skandinavien?;Azteker;Nordbor;Maya;Nordbor
-Vilket år föll Berlinmuren?;1979;1999;1989;1989
-Vilken svensk uppfinnare instiftade Nobelpriset?;Anders Celsius;Carl von Linné;Alfred Nobel;Alfred Nobel
-Vilken stad var centrum för det antika romerska riket?;Aten;Rom;Alexandria;Rom
-Vem var den första kvinnan som fick Nobelpriset?;Ada Lovelace;Rosalind Franklin;Marie Curie;Marie Curie
-Vilken svensk kung förknippas med slaget vid Lützen 1632?;Karl XII;Gustav II Adolf;Gustav Vasa;Gustav II Adolf
-Vilken mur delade Berlin under kalla kriget?;Kinesiska muren;Berlinmuren;Hadrianus mur;Berlinmuren
-Vilket år undertecknades USA:s självständighetsförklaring?;1789;1812;1776;1776
-Vilket land förknippas med den antika demokratins utveckling i Aten?;Egypten;Grekland;Persien;Grekland
-Vad hette den första permanenta engelska kolonin i Nordamerika, grundad 1607?;Plymouth;Boston;Jamestown;Jamestown
-Vilken svensk botaniker skapade ett berömt system för att klassificera organismer?;Alfred Nobel;Jöns Jacob Berzelius;Carl von Linné;Carl von Linné
-Vilket språk används för att skapa webbsidors struktur?;CSS;HTML;SQL;HTML
-Vilket språk används främst för att styla webbsidor?;HTML;C#;CSS;CSS
-Vilket språk används i din quiz-app?;Python;C#;Ruby;C#
-Vad står CPU för?;Computer Personal Unit;Central Program Utility;Central Processing Unit;Central Processing Unit
-Vad används Git främst till?;Bildredigering;Versionshantering;Databashantering;Versionshantering
-Vad används en databas till?;Kyla processorn;Skapa skärmbilder;Lagra och organisera data;Lagra och organisera data
-Vad betyder API?;Automated Program Installation;Application Programming Interface;Applied Processing Internet;Application Programming Interface
-Vilket av följande är en boolesk datatyp i C#?;string;decimal;bool;bool
-Vilket värde kan en bool-variabel ha?;1 till 100;true eller false;Valfri text;true eller false
-Vilken symbol används ofta för att jämföra likhet i C#?;=;=>;==;==
-Vilken metod skriver text till konsolen i C#?;Console.ReadLine();Console.WriteLine();File.ReadAllText();Console.WriteLine();
-Vilken metod läser in en textrad från konsolen?;Console.WriteLine();Console.Clear();Console.ReadLine();Console.ReadLine();
-Vad används en for-loop till?;Skapa en klass;Upprepa kod;Deklarera ett namespace;Upprepa kod
-Vilket nyckelord används för att skapa en klass i C#?;method;object;class;class
-Vad används en metod till?;Lagra endast bilder;Samla kod för en uppgift;Starta datorn;Samla kod för en uppgift
-Vad är en variabel?;En typ av loop;En filändelse;En namngiven plats för ett värde;En namngiven plats för ett värde
-Vilken filändelse har vanliga C#-källfiler?;.html;.css;.cs;.cs
-Vad gör List<T> i C#?;Startar en webbläsare;Lagrar en samling element;Kompilerar koden;Lagrar en samling element
-Vilket nyckelord används för att skapa ett nytt objekt i C#?;class;return;new;new
-Vilket nyckelord används för att returnera ett värde från en metod?;break;using;return;return
-Vad används try-catch till?;Skapa loopar;Hantera undantag;Deklarera variabler;Hantera undantag
-Vad används en constructor till?;Radera en fil;Initiera ett objekt;Jämföra strängar;Initiera ett objekt
-Vilken operator betyder logiskt OCH i C#?;||;!;&&;&&
-Vilken operator betyder logiskt ELLER i C#?;&&;||;==;||
-Vilket nyckelord används för att definiera ett gränssnitt i C#?;class;enum;interface;interface
-Vad är en enum i C#?;En loop;En typ med namngivna värden;En metodparameter;En typ med namngivna värden
-Vilken metod kan dela en sträng vid en viss separator?;Join();Replace();Split();Split();
-Vilken klass används för att läsa alla rader från en textfil?;Console;Math;File;File
-Vad gör metoden int.TryParse()?;Skriver text till konsolen;Försöker konvertera text till ett heltal;Sorterar en lista;Försöker konvertera text till ett heltal
-Vilken samling fungerar enligt principen Last In, First Out?;Queue<T>;List<T>;Stack<T>;Stack<T>
-Vilken samling fungerar enligt principen First In, First Out?;Stack<T>;Queue<T>;HashSet<T>;Queue<T>
-Vad betyder DRY inom programmering?;Do Repeat Yourself;Data Runs Yearly;Don't Repeat Yourself;Don't Repeat Yourself
+What is the capital of Sweden?;Gothenburg;Stockholm;Malmö;Stockholm
+What is the capital of Norway?;Oslo;Bergen;Trondheim;Oslo
+What is the capital of Finland?;Turku;Tampere;Helsinki;Helsinki
+What is the capital of Denmark?;Aarhus;Copenhagen;Odense;Copenhagen
+What is the capital of Greece?;Thessaloniki;Patras;Athens;Athens
+What is the capital of France?;Paris;Lyon;Marseille;Paris
+What is the capital of Italy?;Milan;Rome;Naples;Rome
+What is the capital of Spain?;Barcelona;Seville;Madrid;Madrid
+What is the capital of Germany?;Munich;Hamburg;Berlin;Berlin
+What is the capital of Japan?;Osaka;Tokyo;Kyoto;Tokyo
+What is Sweden's largest lake?;Lake Vättern;Lake Mälaren;Lake Vänern;Lake Vänern
+Which continent is Egypt primarily located in?;Asia;Africa;Europe;Africa
+Which country is shaped like a boot?;Portugal;Greece;Italy;Italy
+Which sea lies between Sweden and Finland?;The Baltic Sea;The North Sea;The Mediterranean Sea;The Baltic Sea
+What is the largest ocean in the world?;The Atlantic Ocean;The Pacific Ocean;The Indian Ocean;The Pacific Ocean
+Which of these countries has the largest population?;Canada;Australia;India;India
+On which continent is Brazil located?;Africa;South America;Asia;South America
+Which river flows through London?;The Seine;The Danube;The Thames;The Thames
+Which country is the city of Thessaloniki located in?;Cyprus;Greece;Turkey;Greece
+What is the highest mountain peak above sea level?;K2;Mount Everest;Mont Blanc;Mount Everest
+How many days are there in a leap year?;365;364;366;366
+How many minutes are there in an hour?;100;60;30;60
+How many seconds are there in a minute?;60;100;90;60
+Which planet is closest to the Sun?;Venus;Mars;Mercury;Mercury
+Which planet is known as the Red Planet?;Mars;Jupiter;Saturn;Mars
+Which is the largest planet in the Solar System?;Earth;Neptune;Jupiter;Jupiter
+What does the Earth orbit?;The Moon;The Sun;Mars;The Sun
+Which gas do humans need for cellular respiration?;Nitrogen;Helium;Oxygen;Oxygen
+Which gas do plants absorb during photosynthesis?;Carbon dioxide;Oxygen;Hydrogen;Carbon dioxide
+What is H2O?;Oxygen;Salt;Water;Water
+At what temperature does water boil at normal atmospheric pressure?;50 °C;100 °C;150 °C;100 °C
+Which organ pumps blood throughout the body?;The liver;The lungs;The heart;The heart
+Which organs do we primarily use to breathe?;The lungs;The kidneys;The stomach;The lungs
+How many bones does an adult human typically have?;201;206;250;206
+Which vitamin is produced in the skin with the help of sunlight?;Vitamin C;Vitamin B12;Vitamin D;Vitamin D
+What is the largest organ in the human body?;The liver;The skin;The heart;The skin
+What is the process called in which plants convert light into chemical energy?;Combustion;Fermentation;Photosynthesis;Photosynthesis
+Which of these animals is a mammal?;Dolphin;Shark;Trout;Dolphin
+What is the largest living animal in the world?;African elephant;Giraffe;Blue whale;Blue whale
+Which substance gives blood its red color?;Chlorophyll;Hemoglobin;Melanin;Hemoglobin
+What is the chemical symbol for gold?;Ag;Fe;Au;Au
+What is the chemical symbol for oxygen?;S;O;N;O
+Which element has the symbol Fe?;Gold;Silver;Iron;Iron
+What is the pH value of neutral water at approximately 25 °C?;0;7;14;7
+What is the chemical symbol for sodium?;N;Ne;Na;Na
+Which force keeps us on the Earth?;Magnetism;Gravity;Friction;Gravity
+What does a thermometer measure?;Air pressure;Speed;Temperature;Temperature
+Which material is a good electrical conductor?;Rubber;Copper;Glass;Copper
+Who was Sweden's first female Prime Minister?;Annie Lööf;Ebba Busch;Magdalena Andersson;Magdalena Andersson
+In which year did World War II begin in Europe?;1914;1939;1945;1939
+In which year did World War II end?;1939;1950;1945;1945
+Which civilization built the pyramids of Giza?;Ancient Egyptians;Romans;Vikings;Ancient Egyptians
+Who was the first person to walk on the Moon?;Yuri Gagarin;Neil Armstrong;Buzz Aldrin;Neil Armstrong
+In which year did Apollo 11 land on the Moon?;1959;1979;1969;1969
+Which ship sank in 1912 after colliding with an iceberg?;Britannic;Titanic;Lusitania;Titanic
+Which country is associated with the beginning of the Renaissance?;Sweden;Canada;Italy;Italy
+Which people are associated with the Viking Age in Scandinavia?;Aztecs;Norsemen;Maya;Norsemen
+In which year did the Berlin Wall fall?;1979;1999;1989;1989
+Which Swedish inventor established the Nobel Prize?;Anders Celsius;Carl Linnaeus;Alfred Nobel;Alfred Nobel
+Which city was the center of the ancient Roman Empire?;Athens;Rome;Alexandria;Rome
+Who was the first woman to receive a Nobel Prize?;Ada Lovelace;Rosalind Franklin;Marie Curie;Marie Curie
+Which Swedish king is associated with the Battle of Lützen in 1632?;Charles XII;Gustavus Adolphus;Gustav Vasa;Gustavus Adolphus
+Which wall divided Berlin during the Cold War?;The Great Wall of China;The Berlin Wall;Hadrian's Wall;The Berlin Wall
+In which year was the United States Declaration of Independence signed?;1789;1812;1776;1776
+Which country is associated with the development of ancient democracy in Athens?;Egypt;Greece;Persia;Greece
+What was the first permanent English settlement in North America, founded in 1607?;Plymouth;Boston;Jamestown;Jamestown
+Which Swedish botanist created a famous system for classifying organisms?;Alfred Nobel;Jöns Jacob Berzelius;Carl Linnaeus;Carl Linnaeus
+Which language is used to define the structure of web pages?;CSS;HTML;SQL;HTML
+Which language is primarily used to style web pages?;HTML;C#;CSS;CSS
+Which programming language is used in your quiz app?;Python;C#;Ruby;C#
+What does CPU stand for?;Computer Personal Unit;Central Program Utility;Central Processing Unit;Central Processing Unit
+What is Git primarily used for?;Image editing;Version control;Database management;Version control
+What is a database used for?;Cooling the processor;Creating screenshots;Storing and organizing data;Storing and organizing data
+What does API stand for?;Automated Program Installation;Application Programming Interface;Applied Processing Internet;Application Programming Interface
+Which of the following is a Boolean data type in C#?;string;decimal;bool;bool
+Which values can a bool variable hold?;1 to 100;true or false;Any text;true or false
+Which symbol is commonly used to compare equality in C#?;=;=>;==;==
+Which method writes text to the console in C#?;Console.ReadLine();Console.WriteLine();File.ReadAllText();Console.WriteLine();
+Which method reads a line of text from the console?;Console.WriteLine();Console.Clear();Console.ReadLine();Console.ReadLine();
+What is a for loop used for?;Creating a class;Repeating code;Declaring a namespace;Repeating code
+Which keyword is used to create a class in C#?;method;object;class;class
+What is a method used for?;Storing only images;Grouping code that performs a task;Starting a computer;Grouping code that performs a task
+What is a variable?;A type of loop;A file extension;A named storage location for a value;A named storage location for a value
+Which file extension is used for standard C# source files?;.html;.css;.cs;.cs
+What does List<T> do in C#?;Launches a web browser;Stores a collection of elements;Compiles code;Stores a collection of elements
+Which keyword is used to create a new object in C#?;class;return;new;new
+Which keyword is used to return a value from a method?;break;using;return;return
+What is try-catch used for?;Creating loops;Handling exceptions;Declaring variables;Handling exceptions
+What is a constructor used for?;Deleting a file;Initializing an object;Comparing strings;Initializing an object
+Which operator represents logical AND in C#?;||;!;&&;&&
+Which operator represents logical OR in C#?;&&;||;==;||
+Which keyword is used to define an interface in C#?;class;enum;interface;interface
+What is an enum in C#?;A loop;A type containing named values;A method parameter;A type containing named values
+Which method can split a string using a specified separator?;Join();Replace();Split();Split();
+Which class is used to read all lines from a text file?;Console;Math;File;File
+What does the int.TryParse() method do?;Writes text to the console;Attempts to convert text into an integer;Sorts a list;Attempts to convert text into an integer
+Which collection follows the Last In, First Out principle?;Queue<T>;List<T>;Stack<T>;Stack<T>
+Which collection follows the First In, First Out principle?;Stack<T>;Queue<T>;HashSet<T>;Queue<T>
+What does DRY stand for in programming?;Do Repeat Yourself;Data Runs Yearly;Don't Repeat Yourself;Don't Repeat Yourself
+What does OOP stand for in programming?;Object-Oriented Programming;Object Operation Process;Online Operating Program;Object-Oriented Programming
