@@ -7,11 +7,13 @@ public class GameController
 {
     private readonly GameService _gameService;
     private readonly GameView _gameView;
+    private readonly UsersService _usersService;
 
-    public GameController(GameService gameService, GameView gameView)
+    public GameController(GameService gameService, GameView gameView, UsersService usersService)
     {
         _gameService = gameService;
         _gameView = gameView;
+        _usersService = usersService;
     }
 
     public void startGame()
@@ -34,8 +36,10 @@ public class GameController
                         userName = _gameView.ReadUserName();
                     }
 
+                    _usersService.AddUser(userName);
                     break;
                 case 2:
+                    // TODO Game rules
                     break;
                 case 3:
                     int index = 1;

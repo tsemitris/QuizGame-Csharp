@@ -9,7 +9,10 @@ class Program
     {
         GameService gameService = new GameService();
         GameView gameView = new GameView();
-        GameController gameController = new GameController(gameService, gameView);
+        UsersService usersService = new UsersService();
+
+
+        GameController gameController = new GameController(gameService, gameView, usersService);
 
         gameController.startGame();
     }
