@@ -30,7 +30,7 @@ public class GameView
         return userChoice;
     }
 
-    public void PrintUserLoadGameEmptyMessage()
+    public void PrintNoUserFound()
     {
         Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.WriteLine("\nNo user found!");
