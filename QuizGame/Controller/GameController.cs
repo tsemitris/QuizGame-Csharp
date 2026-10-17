@@ -38,6 +38,13 @@ public class GameController
                 case 2:
                     break;
                 case 3:
+                    int index = 1;
+                    foreach (User user in _usersService.OrderByDescending())
+                    {
+                        _gameView.ShowLeaderboard(index, user);
+                        index++;
+                    }
+
                     break;
                 case 0:
                     isRunning = false;
