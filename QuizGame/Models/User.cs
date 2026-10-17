@@ -16,14 +16,4 @@ public class User
         Name = name;
         LastTimePlayed = DateOnly.FromDateTime(DateTime.Now);
     }
-
-    public User(int lifes)
-    {
-        Lifes = lifes;
-    }
-
-    public User(double points)
-    {
-        Points = points;
-    }
 }
