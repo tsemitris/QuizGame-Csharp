@@ -21,6 +21,9 @@ public class GameView
         Console.WriteLine("\nLoad game:");
     }
 
+    public int ReadUserLoadGameInput()
+    {
+        Console.WriteLine("\nWhich save do you want to load?");
         int userChoice = 0;
         if (!int.TryParse(Console.ReadLine(), out userChoice))
         {
