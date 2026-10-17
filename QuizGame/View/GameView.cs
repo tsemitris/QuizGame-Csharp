@@ -79,4 +79,11 @@ public class GameView
         return userChoice;
     }
 
+    public void CorrectAnswerMessage()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.WriteLine("Correct!");
+        Console.ResetColor();
+    }
+
 }
