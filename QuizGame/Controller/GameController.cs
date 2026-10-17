@@ -148,13 +148,23 @@ public class GameController
 
     void ShowLeaderboard()
     {
-        _gameView.PrintLeaderboardHeader();
-
-        int index = 1;
-        foreach (User user in _usersService.OrderByDescending())
+        List<User> users = _usersService.OrderByDescending();
+        if (users.Count == 0)
         {
-            _gameView.PrintUserInfo(index, user);
-            index++;
+            _gameView.PrintNoUserFound();
+            StartGame();
+        }
+        else
+        {
+            _gameView.PrintLeaderboardHeader();
+
+            int index = 1;
+            foreach (User user in users)
+            {
+                _gameView.PrintUserInfo(index, user);
+                index++;
+            }
+
         }
     }
 }
