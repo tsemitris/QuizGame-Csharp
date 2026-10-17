@@ -6,7 +6,7 @@ public class GameView
 {
     public void ShowIntroText()
     {
-        Console.WriteLine("Welcome to Quiz-Time!");
+        Console.WriteLine("\nWelcome to Quiz-Time!");
         Console.WriteLine("Test your knowledge and see how many questions you can answer correctly!\n");
         ShowReadyMessage();
     }
