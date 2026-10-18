@@ -43,7 +43,19 @@ public class GameController
                 break;
             case 3:
                 _gameView.ShowGameRules();
-                _gameView.ShowGoToMainMenu();
+                int userChoiceGameRules = _gameView.ShowGoToMainMenu();
+
+                switch (userChoiceGameRules)
+                {
+                    case 1:
+                        StartGame();
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        _gameView.InvalidChoice();
+                        break;
+                }
                 break;
             case 4:
                 ShowLeaderboard();
