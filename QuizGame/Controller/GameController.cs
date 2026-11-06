@@ -70,21 +70,24 @@ public class GameController
 
     void ShowEndMenu(string userName)
     {
-        int userChoice = _gameView.ShowEndMenu();
-
-        switch (userChoice)
+        while (true)
         {
-            case 1:
-                PlayGame(userName);
-                break;
-            case 9:
-                StartGame();
-                break;
-            case 0:
-                break;
-            default:
-                _gameView.InvalidChoice();
-                break;
+            int userChoice = _gameView.ShowEndMenu();
+
+            switch (userChoice)
+            {
+                case 1:
+                    PlayGame(userName);
+                    return;
+                case 9:
+                    StartGame();
+                    return;
+                case 0:
+                    return;
+                default:
+                    _gameView.InvalidChoice();
+                    break;
+            }
         }
     }
 
