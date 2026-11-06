@@ -21,13 +21,19 @@ public class GameService
 
     public string[] GetQuestion()
     {
+        // Clear the showedQuestions list if it contains all the questions
+        if (showedQuestions.Count >= questions.Length)
+        {
+            showedQuestions.Clear();
+        }
+
         Random random = new Random();
-        int randomQuestionIndex = random.Next(1, questions.Length + 1);
+        int randomQuestionIndex = random.Next(0, questions.Length);
         bool randomNumberExistance = showedQuestions.Contains(randomQuestionIndex);
 
         while (randomNumberExistance)
         {
-            randomQuestionIndex = random.Next(1, questions.Length + 1);
+            randomQuestionIndex = random.Next(0, questions.Length);
             randomNumberExistance = showedQuestions.Contains(randomQuestionIndex);
         }
 
