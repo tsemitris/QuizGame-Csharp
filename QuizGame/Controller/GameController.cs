@@ -50,7 +50,7 @@ public class GameController
                     case 1:
                         StartGame();
                         break;
-                    case 2:
+                    case 0:
                         break;
                     default:
                         _gameView.InvalidChoice();
