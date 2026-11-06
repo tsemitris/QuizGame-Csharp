@@ -4,6 +4,7 @@ namespace QuizGame.Services;
 
 public class GameService
 {
+    // AI-inspired [Line 8]
     string[] questions = File.ReadAllLines("../../../questions.txt");
     List<int> showedQuestions = new List<int>();
 
@@ -38,7 +39,7 @@ public class GameService
         }
 
         showedQuestions.Add(randomQuestionIndex);
-        string[] answers = questions[randomQuestionIndex].Split(';');
+        string[] answers = questions[randomQuestionIndex].Split(';'); // AI-inspired
 
         return answers;
     }

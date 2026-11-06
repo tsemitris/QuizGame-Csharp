@@ -182,6 +182,7 @@ public class GameView
 
     public void ShowGameRules()
     {
+        // AI-inspired [Line 186-219] [Game rules text]
         Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.WriteLine("\nQuiz-time - Game rules");
         Console.ResetColor();

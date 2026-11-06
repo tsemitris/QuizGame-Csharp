@@ -32,6 +32,7 @@ public class UsersService
 
     public List<User> OrderByDescending()
     {
+        // AI-inspired [Line 36]
         return users.OrderByDescending(u => u.Points).ToList();
     }
 
