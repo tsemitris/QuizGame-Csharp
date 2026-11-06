@@ -58,6 +58,8 @@ public class GameService
 
     public double CalculatePoints(int userLives)
     {
+        // AI-inspired [Line 67, 69, 71] [Multiplication system]
+
         int correctAnswerPoint = 100;
         switch (userLives)
         {
