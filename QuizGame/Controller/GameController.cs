@@ -103,7 +103,7 @@ public class GameController
             bool validatedUserAnswer = _gameService.ValidateUserAnswer(question, userInput);
 
             int userLives = _usersService.GetUserLives(userId);
-            if (userLives > 1)
+            if (userLives > 0)
             {
                 if (validatedUserAnswer)
                 {
@@ -119,15 +119,19 @@ public class GameController
                 {
                     _gameView.WrongAnswerMessage(question);
                     _usersService.UpdateUserLife(userId);
-                    _gameView.ShowRemainingPointsAndLives(_usersService.GetUserById(userId));
+
+                    userLives = _usersService.GetUserLives(userId);
+                    if (userLives == 0)
+                    {
+                        _gameView.ShowGameOver();
+                        ShowEndMenu(userName);
+                        return;
+                    }
+                    else
+                    {
+                        _gameView.ShowRemainingPointsAndLives(_usersService.GetUserById(userId));
+                    }
                 }
-            }
-            else
-            {
-                _gameView.WrongAnswerMessage(question);
-                _gameView.ShowGameOver();
-                ShowEndMenu(userName);
-                break;
             }
         }
 
